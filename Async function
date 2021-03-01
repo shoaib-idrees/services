@@ -1,0 +1,28 @@
+//Async function returns a value then the 
+//promise will be resolved with that value.
+
+//If the function throws an exception the 
+//promise will be rejected.
+
+async function hello(){
+	return "Hey guy!";
+}
+hello();
+//promise {<resolved>: "Hey guy!"}
+
+async function uhOh(){
+	throw new Error('oh no!')
+}
+uhOh();
+//promise{<rejected>: Error :oh no!}
+
+const sing =async()=> {
+	throw "OH No, problem!"
+	return 'LA LA LA';
+}
+sing.then((data)=>{
+	console.log("promise resolved with:"" data)
+}).catch(err=>{
+	console.log("Oh no, promise rejected!")
+	console.log(err)
+})
