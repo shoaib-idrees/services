@@ -1,0 +1,44 @@
+Nodejs 
+https://nodejs.org/api/
+
+Implementing public facing web servers
+https://www.tutorialspoint.com/nodejs/nodejs_web_module.htm
+https://nodejs.org/api/http2.html#http2_server_side_example
+https://nodejs.org/api/http2.html#http2_client_side_example
+
+Creating RESTful HTTP services
+https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
+https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
+https://github.com/expressjs/cors
+
+Consuming restful services 
+https://flaviocopes.com/node-axios/
+https://github.com/axios/axios
+
+Knowledge of HTTP verbs and status codes
+https://developers.evrythng.com/docs/http-verbs-and-error-codes
+set status code using expressjs 
+http://expressjs.com/en/guide/error-handling.html
+https://pusher.com/tutorials/http-response-codes-part-2
+https://www.tutorialspoint.com/nodejs/nodejs_response_object.htm
+using http 
+http://zetcode.com/javascript/http/
+
+Processing user input
+Using body Parser
+https://www.tutorialsteacher.com/nodejs/expressjs-web-application
+https://www.freecodecamp.org/news/how-to-make-input-validation-simple-and-clean-in-your-express-js-app-ea9b5ff5a8a7/
+
+Security 
+https://www.freecodecamp.org/news/express-js-security-tips/
+Sanitize Input
+https://www.npmjs.com/package/express-sanitize-escape
+brute force DOS Attack
+https://www.npmjs.com/package/express-rate-limit
+Hide Express Power by 
+app.disable('x-powered-by')
+Protect your app against CSRF
+https://www.npmjs.com/package/csurf
+
+https://www.sitepoint.com/forms-file-uploads-security-node-express/
+https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d
