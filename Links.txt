@@ -1,0 +1,2 @@
+https://robkendal.co.uk/blog/how-to-build-a-restful-node-js-api-server-using-json-files
+https://github.com/bpk68/api-server-starter
