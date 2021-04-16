@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>serving html</title>
+</head>
+<body>
+	<h1> 
+		<ul>
+		<li>Name is <%= person %></li>
+        <li>Age = <%=data.age%></li>
+        <li>Job is <%= data.job%></li>
+        <li>Hobbies are</li>
+    </ul>
+        <%data.hobbies.forEach(function(hobby){%>
+        <ul>
+        <li><%=hobby%></li>
+        </ul>
+    <%});%>
+
+	 </h1>
+
+</body>
+</html>
+
