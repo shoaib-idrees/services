@@ -1,0 +1,31 @@
+<%- include("partials/header") %>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<div class="container">
+<div class="row">
+<h1 style="text-align:center"> Login</h1>
+<div style=" width:30%; margin:25px auto;">
+<form action="/login" method="POST">
+<div class="form-group"> 
+<label> username:</label>
+   <input class="form-control" type="text"  name="username"  placeholder="User Name">
+ </div>
+ <div class="g-recaptcha" data-sitekey="6LdIYmsaAAAAANC5iIifHGI8GWxaVvUfv28SgXwx"></div>
+ <div class="form-group"> 
+ <label> password:</label>
+   <input class="form-control" type="password"  name="password"  placeholder="Password">
+ </div>
+  <button class="btn btn-lg btn-primary btn-block">Login</button>
+
+</form>
+</div>
+</div>
+</div>
+
+<li><a href="/register">Sign Up<a/></li>
+<li><a href="/login">Login<a/></li>
+<li><a href="/logout">Logout<a/></li>
+
+
+<%- include("partials/footer") %>
